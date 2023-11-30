@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppNewkool</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+</resources>
