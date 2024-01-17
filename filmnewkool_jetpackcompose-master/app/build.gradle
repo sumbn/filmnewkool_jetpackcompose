@@ -17,8 +17,8 @@ apikey.load(new FileInputStream(file))
         applicationId 'com.sumbui.appnewkool'
         minSdk 21
         targetSdk 33
-        versionCode 4
-        versionName '1.1'
+        versionCode 5
+        versionName '1.2'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -29,7 +29,8 @@ apikey.load(new FileInputStream(file))
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
